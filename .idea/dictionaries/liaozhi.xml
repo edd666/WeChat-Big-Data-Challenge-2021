@@ -3,12 +3,18 @@
     <words>
       <w>algo</w>
       <w>authorid</w>
+      <w>dtype</w>
       <w>feedid</w>
+      <w>glorot</w>
+      <w>keras</w>
       <w>liaozhi</w>
+      <w>maxlen</w>
       <w>nunique</w>
       <w>preds</w>
+      <w>sparsefeat</w>
       <w>uauc</w>
       <w>userid</w>
+      <w>varlen</w>
       <w>videoplayseconds</w>
       <w>wechat</w>
       <w>weixin</w>
