@@ -160,7 +160,7 @@ class AttentionSequencePoolingLayer(layers.Layer):
         att_score = tf.transpose(att_score, (0, 2, 1))
 
         if self.weight_normalization:
-            padding = tf.ones_like(att_score) * (-2 ** 32 + 1)
+            padding = tf.ones_like(att_score) * (-2 ** 31 + 1)
         else:
             padding = tf.zeros_like(att_score)
 
@@ -195,6 +195,81 @@ class AttentionSequencePoolingLayer(layers.Layer):
             'weight_normalization': self.weight_normalization,
         }
         base_config = super(AttentionSequencePoolingLayer, self).get_config()
+        base_config.update(config)
+
+        return base_config
+
+
+class WeightedSequenceLayer(layers.Layer):
+    """
+    WeightedSequenceLayer is used to apply weight score on variable-length sequence feature.
+
+    Input shape
+        - A list of two tensor [seq_value, seq_weight]
+        - seq_value is a 3D tensor with shape: (batch_size, T, embedding_size)
+        - seq_weight is a 2D tensor with shape: (batch_size, T),indicate weight score of each sequence
+
+    Output shape
+        - 3D tensor with shape: (batch_size, T, embedding_size)
+
+    """
+    def __init__(self, mask_zero=True, weight_normalization=True, **kwargs):
+        """
+
+        :param mask_zero: bool 是否支持mask zero
+        :param weight_normalization: bool 是否权重归一化
+        :param kwargs:
+        """
+        super(WeightedSequenceLayer, self).__init__(**kwargs)
+        self.mask_zero = mask_zero
+        self.weight_normalization = weight_normalization
+        self.seq_maxlen = None
+
+    def build(self, input_shape):
+        # Be sure to call this somewhere!
+        super(WeightedSequenceLayer, self).build(input_shape)
+        if not self.mask_zero:
+            self.seq_maxlen = int(input_shape[0][1])
+
+    def call(self, inputs, mask=None, **kwargs):
+        if self.mask_zero:
+            if mask is None:
+                raise ValueError("When mask_zero=True,input must support masking.")
+            seq_value, seq_weight = inputs
+            mask = mask[0]
+        else:
+            seq_value, seq_len, seq_weight = inputs
+            mask = tf.sequence_mask(seq_len, self.seq_maxlen, dtype=tf.bool)
+
+        if self.weight_normalization:
+            padding = tf.ones_like(seq_weight) * (-2 ** 31 + 1)
+        else:
+            padding = tf.zeros_like(seq_weight)
+
+        seq_weight = tf.where(mask, seq_weight, padding)
+
+        if self.weight_normalization:
+            seq_weight = tf.nn.softmax(seq_weight)
+
+        embedding_size = int(seq_value.shape[-1])
+        seq_weight = tf.expand_dims(seq_weight, axis=2)
+        seq_weight = tf.tile(seq_weight, [1, 1, embedding_size])
+
+        return tf.math.multiply(seq_value, seq_weight)
+
+    def compute_mask(self, inputs, mask=None):
+        if self.mask_zero:
+            return mask[0]
+        else:
+            return None
+
+    def compute_output_shape(self, input_shape):
+
+        return input_shape[0]
+
+    def get_config(self):
+        config = {'mask_zero': self.mask_zero, 'weight_normalization': self.weight_normalization}
+        base_config = super(WeightedSequenceLayer, self).get_config()
         base_config.update(config)
 
         return base_config

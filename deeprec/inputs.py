@@ -11,8 +11,8 @@
 # packages
 from collections import OrderedDict
 from tensorflow.keras import layers
-from deeprec.layers.sequence import SequencePoolingLayer
 from deeprec.feature_column import DenseFeat, SparseFeat, VarLenSparseFeat
+from deeprec.layers.sequence import SequencePoolingLayer, WeightedSequenceLayer
 
 
 def build_embedding_dict(feature_columns, seq_mask_zero=True):
@@ -115,7 +115,12 @@ def get_varlen_pooling_list(input_dict, embedding_dict, varlen_sparse_feature_co
         feature_name = fc.name
         embedding_name = fc.embedding_name
         if fc.weight_name is not None:
-            raise ValueError('pooling with weight has not yet been implemented.')
+            seq_value = embedding_dict[embedding_name](input_dict[feature_name])
+            seq_weight = input_dict[fc.weight_name]
+            seq_value = WeightedSequenceLayer(
+                mask_zero=True,
+                weight_normalization=fc.weight_norm
+            )([seq_value, seq_weight])
         else:
             seq_value = embedding_dict[embedding_name](input_dict[feature_name])
 

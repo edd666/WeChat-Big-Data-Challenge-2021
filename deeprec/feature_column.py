@@ -133,7 +133,7 @@ def build_input_dict(feature_columns):
             input_dict[fc.name] = keras.Input(shape=(fc.maxlen,), name=fc.name, dtype=fc.dtype)
 
             if fc.weight_name is not None:
-                input_dict[fc.weight_name] = keras.Input(shape=(fc.maxlen, 1), name=fc.weight_name, dtype='float32')
+                input_dict[fc.weight_name] = keras.Input(shape=(fc.maxlen,), name=fc.weight_name, dtype='float32')
 
         else:
             raise ValueError('Invalid type in feature columns.')

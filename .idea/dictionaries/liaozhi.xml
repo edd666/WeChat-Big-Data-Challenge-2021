@@ -1,16 +1,29 @@
 <component name="ProjectDictionaryState">
   <dictionary name="liaozhi">
     <words>
+      <w>agru</w>
+      <w>aigru</w>
       <w>algo</w>
+      <w>augru</w>
       <w>authorid</w>
+      <w>ctcvr</w>
+      <w>dien</w>
       <w>dtype</w>
+      <w>esmm</w>
       <w>feedid</w>
+      <w>flod</w>
       <w>glorot</w>
       <w>keras</w>
       <w>liaozhi</w>
+      <w>logloss</w>
       <w>maxlen</w>
+      <w>mmoe</w>
+      <w>noclick</w>
       <w>nunique</w>
+      <w>perceptron</w>
       <w>preds</w>
+      <w>probs</w>
+      <w>relu</w>
       <w>sparsefeat</w>
       <w>uauc</w>
       <w>userid</w>
