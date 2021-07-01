@@ -7,17 +7,20 @@
       <w>augru</w>
       <w>authorid</w>
       <w>ctcvr</w>
+      <w>deepwalk</w>
       <w>dien</w>
       <w>dtype</w>
       <w>esmm</w>
       <w>feedid</w>
       <w>flod</w>
       <w>glorot</w>
+      <w>iters</w>
       <w>keras</w>
       <w>liaozhi</w>
       <w>logloss</w>
       <w>maxlen</w>
       <w>mmoe</w>
+      <w>networkx</w>
       <w>noclick</w>
       <w>nunique</w>
       <w>perceptron</w>

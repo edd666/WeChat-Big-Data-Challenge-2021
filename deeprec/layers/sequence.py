@@ -249,7 +249,7 @@ class WeightedSequenceLayer(layers.Layer):
         seq_weight = tf.where(mask, seq_weight, padding)
 
         if self.weight_normalization:
-            seq_weight = tf.nn.softmax(seq_weight)
+            seq_weight = tf.nn.softmax(seq_weight, axis=1)
 
         embedding_size = int(seq_value.shape[-1])
         seq_weight = tf.expand_dims(seq_weight, axis=2)
