@@ -11,8 +11,8 @@
 # packages
 from collections import OrderedDict
 from tensorflow.keras import layers
-from deeprec.feature_column import DenseFeat, SparseFeat, VarLenSparseFeat
-from deeprec.layers.sequence import SequencePoolingLayer, WeightedSequenceLayer
+from src.model.feature_column import DenseFeat, SparseFeat, VarLenSparseFeat
+from src.model.layers.sequence import SequencePoolingLayer, WeightedSequenceLayer
 
 
 def build_embedding_dict(feature_columns, seq_mask_zero=True):

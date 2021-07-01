@@ -13,11 +13,13 @@
       <w>esmm</w>
       <w>feedid</w>
       <w>flod</w>
+      <w>flods</w>
       <w>glorot</w>
       <w>iters</w>
       <w>keras</w>
       <w>liaozhi</w>
       <w>logloss</w>
+      <w>loglss</w>
       <w>maxlen</w>
       <w>mmoe</w>
       <w>networkx</w>
@@ -25,6 +27,7 @@
       <w>nunique</w>
       <w>perceptron</w>
       <w>preds</w>
+      <w>pretrain</w>
       <w>probs</w>
       <w>relu</w>
       <w>sparsefeat</w>
@@ -33,6 +36,7 @@
       <w>varlen</w>
       <w>videoplayseconds</w>
       <w>wechat</w>
+      <w>wedata</w>
       <w>weixin</w>
     </words>
   </dictionary>
