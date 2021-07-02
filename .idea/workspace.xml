@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4e18b8c-a1cd-4786-acfa-76ca8804bc2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/feature_column.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/inputs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/activation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/cells.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/layers/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/models/din.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/models/dnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prepare/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prepare/comm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pretrain/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pretrain/pretrain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/submit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train/model_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.sh" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+              <folding>
+                <element signature="e#133#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/submit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#134#145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="e#132#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/dataset.py" />
+        <option value="$PROJECT_DIR$/bak.py" />
+        <option value="$PROJECT_DIR$/evaluate.py" />
+        <option value="$PROJECT_DIR$/concat.py" />
+        <option value="$PROJECT_DIR$/basic.py" />
+        <option value="$PROJECT_DIR$/deeprec/models/ranking/mlp.py" />
+        <option value="$PROJECT_DIR$/deeprec/models/din.py" />
+        <option value="$PROJECT_DIR$/deeprec/dnn.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/deeprec/models/dnn.py" />
+        <option value="$PROJECT_DIR$/deeprec/feature_column.py" />
+        <option value="$PROJECT_DIR$/deeprec/layers/sequence.py" />
+        <option value="$PROJECT_DIR$/deeprec/inputs.py" />
+        <option value="$PROJECT_DIR$/develop.py" />
+        <option value="$PROJECT_DIR$/init.sh" />
+        <option value="$PROJECT_DIR$/src/pretrain.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/src/train.py" />
+        <option value="$PROJECT_DIR$/src/prepare/pretrain.py" />
+        <option value="$PROJECT_DIR$/src/evaluation.py" />
+        <option value="$PROJECT_DIR$/src/train/model_train.py" />
+        <option value="$PROJECT_DIR$/src/train/train.py" />
+        <option value="$PROJECT_DIR$/config/conf.py" />
+        <option value="$PROJECT_DIR$/src/pretrain/pretrain.py" />
+        <option value="$PROJECT_DIR$/train.sh" />
+        <option value="$PROJECT_DIR$/src/model/inputs.py" />
+        <option value="$PROJECT_DIR$/src/model/models/din.py" />
+        <option value="$PROJECT_DIR$/src/model/layers/cells.py" />
+        <option value="$PROJECT_DIR$/src/model/layers/core.py" />
+        <option value="$PROJECT_DIR$/src/model/layers/gate.py" />
+        <option value="$PROJECT_DIR$/src/model/layers/sequence.py" />
+        <option value="$PROJECT_DIR$/src/model/models/dnn.py" />
+        <option value="$PROJECT_DIR$/src/prepare/comm.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/src/submit.py" />
+        <option value="$PROJECT_DIR$/samples.py" />
+        <option value="$PROJECT_DIR$/evaluation.py" />
+        <option value="$PROJECT_DIR$/submit.py" />
+        <option value="$PROJECT_DIR$/model_train.py" />
+        <option value="$PROJECT_DIR$/sample.py" />
+        <option value="$PROJECT_DIR$/pretrain.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/feature.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WeChat-Big-Data-Challenge-2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeChat-Big-Data-Challenge-2021" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeChat-Big-Data-Challenge-2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/pretrain" />
+      <recent name="$PROJECT_DIR$/deeprec/models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="develop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WeChat-Big-Data-Challenge-2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/develop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WeChat-Big-Data-Challenge-2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WeChat-Big-Data-Challenge-2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.develop" />
+        <item itemvalue="Python.evaluate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4e18b8c-a1cd-4786-acfa-76ca8804bc2f" name="Default Changelist" comment="" />
+      <created>1621820942323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621820942323</updated>
+      <workItem from="1621820950760" duration="1219000" />
+      <workItem from="1621904375373" duration="282000" />
+      <workItem from="1621924480941" duration="3018000" />
+      <workItem from="1621945077201" duration="202000" />
+      <workItem from="1621993240818" duration="11128000" />
+      <workItem from="1622078748438" duration="564000" />
+      <workItem from="1622081373735" duration="10912000" />
+      <workItem from="1622103720003" duration="3059000" />
+      <workItem from="1622163892842" duration="1232000" />
+      <workItem from="1622166393827" duration="5378000" />
+      <workItem from="1622359164905" duration="2788000" />
+      <workItem from="1622424439379" duration="2249000" />
+      <workItem from="1622428729388" duration="5136000" />
+      <workItem from="1622451445889" duration="3206000" />
+      <workItem from="1622458427635" duration="582000" />
+      <workItem from="1622510513900" duration="7083000" />
+      <workItem from="1622548126445" duration="2916000" />
+      <workItem from="1622594504865" duration="2454000" />
+      <workItem from="1622599289683" duration="136000" />
+      <workItem from="1622599428733" duration="6785000" />
+      <workItem from="1622632722514" duration="2640000" />
+      <workItem from="1622681371633" duration="15246000" />
+      <workItem from="1622787324509" duration="1666000" />
+      <workItem from="1622854254909" duration="5557000" />
+      <workItem from="1623027950743" duration="2282000" />
+      <workItem from="1623047308855" duration="3604000" />
+      <workItem from="1623066392474" duration="1083000" />
+      <workItem from="1623069003127" duration="369000" />
+      <workItem from="1623076370818" duration="94000" />
+      <workItem from="1623114424319" duration="8026000" />
+      <workItem from="1623202390868" duration="9350000" />
+      <workItem from="1623238194522" duration="809000" />
+      <workItem from="1623241349941" duration="477000" />
+      <workItem from="1623286691372" duration="1409000" />
+      <workItem from="1623288786882" duration="318000" />
+      <workItem from="1623289108250" duration="1973000" />
+      <workItem from="1623292882698" duration="8000" />
+      <workItem from="1623293106550" duration="11835000" />
+      <workItem from="1623371338991" duration="807000" />
+      <workItem from="1623400204904" duration="1116000" />
+      <workItem from="1623719498409" duration="391000" />
+      <workItem from="1623721647668" duration="5039000" />
+      <workItem from="1623804391478" duration="1125000" />
+      <workItem from="1623843590919" duration="925000" />
+      <workItem from="1623846434093" duration="1895000" />
+      <workItem from="1623849442343" duration="223000" />
+      <workItem from="1623890888952" duration="2345000" />
+      <workItem from="1623923686808" duration="380000" />
+      <workItem from="1623978922492" duration="1702000" />
+      <workItem from="1623998688791" duration="3798000" />
+      <workItem from="1624327199571" duration="1053000" />
+      <workItem from="1624347235788" duration="577000" />
+      <workItem from="1624518891522" duration="1845000" />
+      <workItem from="1624545645066" duration="472000" />
+      <workItem from="1624608268739" duration="1098000" />
+      <workItem from="1624930786469" duration="57000" />
+      <workItem from="1624930921738" duration="78000" />
+      <workItem from="1624932149072" duration="37000" />
+      <workItem from="1624965449805" duration="121000" />
+      <workItem from="1625053944054" duration="2018000" />
+      <workItem from="1625058861077" duration="1243000" />
+      <workItem from="1625103140901" duration="7027000" />
+      <workItem from="1625112767642" duration="2456000" />
+      <workItem from="1625195304883" duration="1881000" />
+      <workItem from="1625209775475" duration="241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="177025000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18240343" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49928468" weight="0.32920793" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.32920793" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32920793" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49928468" visible="true" weight="0.32920793" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.32920793" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32920793" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WeChat_Big_Data_Challenge_2021$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1622107693497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WeChat_Big_Data_Challenge_2021$train.coverage" NAME="train Coverage Results" MODIFIED="1625113258026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/train" />
+    <SUITE FILE_PATH="coverage/WeChat_Big_Data_Challenge_2021$develop.coverage" NAME="develop Coverage Results" MODIFIED="1625058870866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/deeprec/layers/activation.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/layers/cells.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/layers/gate.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/ranking/mlp.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/ranking/mmoe.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/ranking/dien.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/ranking/esmm.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/ranking/din.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/layers/utils.py" />
+    <entry file="file://$PROJECT_DIR$/model.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/din.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/inputs.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/layers/sequence.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/feature_column.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/layers/core.py" />
+    <entry file="file://$PROJECT_DIR$/deeprec/models/dnn.py" />
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop.py" />
+    <entry file="file://$PROJECT_DIR$/src/train.py" />
+    <entry file="file://$PROJECT_DIR$/src/pretrain.py" />
+    <entry file="file://$PROJECT_DIR$/utils.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/models/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/init.sh" />
+    <entry file="file://$PROJECT_DIR$/src/pretrain/pretrain.py" />
+    <entry file="file://$PROJECT_DIR$/src/evaluation.py" />
+    <entry file="file://$PROJECT_DIR$/src/train/model_train.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/feature_column.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/inputs.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/models/dnn.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/models/din.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/layers/activation.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/layers/cells.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/layers/core.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/layers/gate.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/layers/sequence.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/layers/utils.py" />
+    <entry file="file://$PROJECT_DIR$/src/prepare/comm.py" />
+    <entry file="file://$PROJECT_DIR$/src/train/train.py" />
+    <entry file="file://$PROJECT_DIR$/src/submit.py" />
+    <entry file="file://$PROJECT_DIR$/train.sh" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#158#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="30" selection-start-line="55" selection-end-line="56" />
+          <folding>
+            <element signature="e#134#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#134#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1402">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="e#133#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#134#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#132#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

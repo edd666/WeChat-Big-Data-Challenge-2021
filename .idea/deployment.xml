@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@10.22.18.20:55807" createEmptyFolders="true">
+    <serverData>
+      <paths name="root@10.22.18.20:55807">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/WeChat-Big-Data-Challenge-2021" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
