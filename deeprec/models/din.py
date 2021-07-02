@@ -11,11 +11,11 @@
 # packages
 import tensorflow as tf
 from tensorflow.keras import layers
-from src.model.layers.core import DNN
-from src.model.layers.utils import concat_func
-from src.model.layers.sequence import AttentionSequencePoolingLayer
-from src.model.feature_column import SparseFeat, VarLenSparseFeat, build_input_dict
-from src.model.inputs import build_embedding_dict, get_dense_value, embedding_lookup, get_varlen_pooling_list
+from deeprec.layers.core import DNN
+from deeprec.layers.utils import concat_func
+from deeprec.layers.sequence import AttentionSequencePoolingLayer
+from deeprec.feature_column import SparseFeat, VarLenSparseFeat, build_input_dict
+from deeprec.inputs import build_embedding_dict, get_dense_value, embedding_lookup, get_varlen_pooling_list
 
 
 def DIN(feature_columns, behavior_columns, att_hidden_units=(64, 16), att_activation='Dice',

@@ -5,13 +5,13 @@
 
 
 """
-    生成提交结果
+    提交结果
 """
 
 # packages
 import time
 import pandas as pd
-from config.conf import *
+from config import *
 
 
 def submit(test_df, test_pred_dict):

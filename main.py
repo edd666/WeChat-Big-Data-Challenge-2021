@@ -5,26 +5,20 @@
 
 
 """
-    模型训练以及评估
+    主程序
 """
 
 # packages
-import os
 import numpy as np
 import pandas as pd
 import tensorflow as tf
 from sklearn.model_selection import KFold
-from src.submit import submit
-from src.evaluation import calc_weighted_uauc
-from src.train.model_train import model_train
-from src.prepare.comm import create_dir, generate_samples, extract_features
-from config.conf import *
-
-
-# General Setting
-# TensorFlow
-os.environ['CUDA_VISIBLE_DEVICES'] = '6,7,5'
-os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'True'
+from config import *
+from submit import submit
+from model_train import model_train
+from feature import extract_features
+from evaluation import calc_weighted_uauc
+from sample import create_dir, generate_samples
 
 
 def main():
@@ -39,9 +33,6 @@ def main():
     test_pred_dict = dict()
     for action in ACTION_LIST:
         print('\n\nAction: %s' % action)
-
-        # 特征-训练每个任务都需要初始化
-        DENSE_FEATURE_COLUMNS = ['videoplayseconds']
 
         # 划分训练集和测试集
         train_df = sample_df.loc[(sample_df.date_ <= STAGE_END_DAY['train']) &
@@ -117,7 +108,7 @@ def main():
     test_df = sample_df.loc[sample_df.date_ == STAGE_END_DAY['test'], :].copy()
     submit(test_df, test_pred_dict)
 
-    return
+    pass
 
 
 if __name__ == '__main__':

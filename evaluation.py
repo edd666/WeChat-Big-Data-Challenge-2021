@@ -3,14 +3,16 @@
 # @Time    : 2021-07-01
 # @Contact : liaozhi_edo@163.com
 
+
 """
-    模型评估
+    评估指标
 """
 
+# packages
 import numpy as np
 from numba import njit
-from scipy.stats import rankdata
 from collections import defaultdict
+from scipy.stats import rankdata
 
 
 @njit

@@ -3,16 +3,21 @@
 # @Time    : 2021-07-01
 # @Contact : liaozhi_edo@163.com
 
+
+"""
+    模型训练
+"""
+
 # packages
 import time
-import pandas as pd
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 from sklearn.metrics import log_loss
-from src.model.feature_column import DenseFeat, SparseFeat, VarLenSparseFeat
-from config.conf import *
-from src.model.models.dnn import DNN
-from src.evaluation import calc_uauc
+from config import *
+from evaluation import calc_uauc
+from deeprec.models.dnn import DNN
+from deeprec.feature_column import DenseFeat, SparseFeat, VarLenSparseFeat
 
 
 def get_feature_columns(data):
@@ -144,3 +149,4 @@ def model_train(train_x, train_y, train_userid_list, valid_x, valid_y, valid_use
     test_pred = model.predict(test_x_dict, batch_size=50 * BATCH_SIZE[action])[:, 0].tolist()
 
     return best_valid_uauc, test_pred
+

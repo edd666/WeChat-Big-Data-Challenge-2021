@@ -5,7 +5,7 @@
 
 
 """
-    预训练Embedding以及部分离散ID类特征的处理(获取mapping)
+    ID特征处理(id_map)以及预训练embedding
 """
 
 # packages
@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 from functools import reduce
 from gensim.models import Word2Vec
-from config.conf import *
+from config import *
 
 
 def get_feed_embedding():
@@ -197,7 +197,7 @@ def get_feedid_embedding_w2v():
     # 注意:此处的id由int变为str
     columns = ['userid', 'feedid']
     user_action = pd.read_csv(DATA_HOME + 'user_action.csv', header=0, index_col=False, usecols=columns)
-    test = pd.read_csv(DATA_HOME + 'test_b.csv', header=0, index_col=False, usecols=columns)
+    test = pd.read_csv(DATA_HOME + 'test_a.csv', header=0, index_col=False, usecols=columns)
     user_action = pd.concat([user_action, test], ignore_index=False, sort=False)
     sentences = user_action.groupby(by=['userid'])['feedid'].apply(lambda x: [str(_) for _ in x.tolist()]).tolist()
 
@@ -224,23 +224,3 @@ def get_feedid_embedding_w2v():
 
     return feedid_embedding_matrix, feedid_map
 
-
-def pretrain():
-    """
-    预训练Embedding以及部分离散ID类特征的处理(获取mapping)
-
-    :return:
-    """
-    # 1,feed embedding(图+文等多媒体)
-    feed_embedding_matrix, feed_map = get_feed_embedding()
-
-    # 2,feed tag
-    feed_tag, tag_map = process_feed_tag()
-
-    # 3,feed keyword
-    feed_keyword, keyword_map = process_feed_keyword()
-
-    # 4,feedid embedding(W2V)
-    feedid_embedding_matrix, feedid_map = get_feedid_embedding_w2v()
-
-    return

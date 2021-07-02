@@ -11,7 +11,7 @@
 # packages
 import tensorflow as tf
 from tensorflow.keras import layers
-from src.model.layers.core import LocalActivationUnit
+from deeprec.layers.core import LocalActivationUnit
 
 
 class SequencePoolingLayer(layers.Layer):

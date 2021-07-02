@@ -9,12 +9,16 @@
 """
 
 # packages
+import os
 import pickle
 from os.path import join
 
+
+# TensorFlow
+os.environ['CUDA_VISIBLE_DEVICES'] = '6,7,5'
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
+
 # Data
-# DATA_HOME = '/data/wedata/wechat_algo_data1/'
-# SAVE_HOME = '/data/'
 DATA_HOME = '/data_share/weixin/wechat_algo_data1/'
 SAVE_HOME = '/data_share/weixin/lz/'
 
@@ -49,7 +53,7 @@ WEIGHT_NAME = {'machine_tag_list': 'machine_tag_list_weight'}
 
 # Model
 NUM_FLODS = 5
-BATCH_SIZE = {'read_comment': 2048, 'like': 512, 'click_avatar':512,
+BATCH_SIZE = {'read_comment': 2048, 'like': 512, 'click_avatar': 512,
               'forward': 512, 'favorite': 512, 'comment': 512, 'follow': 512}
 EMBEDDING_DIM = 64
 ACTION_EPOCHS = {'read_comment': 10, 'like': 10, 'click_avatar': 10,

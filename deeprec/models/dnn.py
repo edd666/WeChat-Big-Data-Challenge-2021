@@ -11,10 +11,10 @@
 # packages
 import tensorflow as tf
 from tensorflow.keras import layers
-from src.model.layers.utils import concat_func
-from src.model.layers.core import DNN as BASE_DNN
-from src.model.feature_column import SparseFeat, VarLenSparseFeat, build_input_dict
-from src.model.inputs import build_embedding_dict, get_dense_value, embedding_lookup, get_varlen_pooling_list
+from deeprec.layers.utils import concat_func
+from deeprec.layers.core import DNN as BASE_DNN
+from deeprec.feature_column import SparseFeat, VarLenSparseFeat, build_input_dict
+from deeprec.inputs import build_embedding_dict, get_dense_value, embedding_lookup, get_varlen_pooling_list
 
 
 def DNN(feature_columns, hidden_units=(256, 128, 64), activation='relu', dropout_rate=0.5, use_bn=True):

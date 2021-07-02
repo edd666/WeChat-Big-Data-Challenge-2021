@@ -11,7 +11,7 @@
 # packages
 import tensorflow as tf
 from tensorflow.keras import layers
-from src.model.layers.activation import activation_layer
+from deeprec.layers.activation import activation_layer
 
 
 class AGRUCell(layers.Layer):
