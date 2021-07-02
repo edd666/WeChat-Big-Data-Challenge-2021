@@ -7,7 +7,7 @@
 
 ------
 
-该方案是基于DNN的baseline方案，若想进一步提升指标，可以考虑如下几方面：
+该方案是基于DNN的baseline方案，线上加权uauc=0.667139。若想进一步提升指标，可以考虑如下几方面：
 
 - 文本特征：如何利用数据集中提供的文本特征，如description、ocr以及asr（分别有word和char为单位的）。尝试过多种方案，如TF-IDF（如何解决冷门word或char，比如只出现一次）获取每段文本最重要的几个词；word2vector获取word embedding，然后通过pooling的方式形成句子的embedding。这些方法在实验中均未取得效果。建议可以考虑通过textcnn或者lstm的方式，学习word embedding。
 - NN模型的优化：本方案仅采用了三层DNN，可以考虑换成deepfm或者xdeepfm，应该能够获得一定的提升。
