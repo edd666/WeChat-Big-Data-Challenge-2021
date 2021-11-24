@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="root@10.22.18.20:55807" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@10.22.18.20:50480" createEmptyFolders="true" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="root@10.22.18.20:55807">
+      <paths name="root@10.22.18.20:50480">
         <serverdata>
           <mappings>
-            <mapping deploy="/data/WeChat-Big-Data-Challenge-2021" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/data/Wechat" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
